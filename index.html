@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Web Application</title>
+	<title>HTML form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>Hello Everyone!</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<label>Full Name: </label>
+	<input type="text" name="fname" placeholder="Enter your Full Name"><br>
+	<label>Secret Pin</label>
+	<input type="password" name="pass" placeholder="Enter your Secret Pin"><br>
+	<label>Gender: </label>
+	<input type="radio" name="r1">
+	Male
+	<input type="radio" name="r1">
+	Female<br>
+	<label>I am expert in </label>
+	<input type="checkbox" name="c1">
+	HTML
+	<input type="checkbox" name="c1">
+	CSS <br>
+	<label>My field of study is</label>
+	<select>
+		<option value="cse">Computer Science and Engineering</option>
+		<option value="eee">Electric and Electronic Engineering</option>
+		<option value="me">Mechanical Engineering</option>
+		<option value="ce">Civil Engineering</option>
+	</select><br>
+	Tell me more about you
+	<textarea  name="message" placeholder="This is textarea. Enter your description.">
+	</textarea><br>
+	<button type="submit">Submit</button>
 </body>
 </html>
